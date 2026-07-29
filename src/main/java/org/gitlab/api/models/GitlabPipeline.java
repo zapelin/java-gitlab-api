@@ -7,7 +7,7 @@ public class GitlabPipeline {
 
 
     @JsonProperty("id")
-    private Integer id;
+    private Long  id;
 
     @JsonProperty("ref")
     private String ref;
@@ -18,11 +18,11 @@ public class GitlabPipeline {
     @JsonProperty("status")
     private String status;
 
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
